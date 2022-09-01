@@ -5,3 +5,4 @@ export const config = {
     'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
   },
 };
+// NOOR WAS HERE
