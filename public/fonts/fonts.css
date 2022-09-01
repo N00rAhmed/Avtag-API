@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'white-medium';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./white-medium-webfont.woff');
+  font-display: swap;
+}
