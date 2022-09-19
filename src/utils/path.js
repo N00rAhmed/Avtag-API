@@ -21,3 +21,7 @@ export default class path {
   static SHIFT = path.API_URL + 'shifts';
   static SHIFTHANDOVER = path.API_URL + 'shifthandovers';
 }
+
+// reason for cors error is that cors hasnt been installed and declared on api v1
+// this installation will allow for cross-domain request
+// another reason for error is API V1 hasnt been deployed properly on heroku

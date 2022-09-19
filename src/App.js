@@ -20,9 +20,11 @@ import store from './redux/store';
 import { loadUser } from './redux/actions/userActions';
 
 function App() {
+
   useEffect(() => {
     store.dispatch(loadUser());
   }, []);
+
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>

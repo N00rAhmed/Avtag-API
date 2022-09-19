@@ -1,3 +1,6 @@
+
+// possible problem with connection between deployed sql server and retrieving data remotely
+// research how sql server is deployed and how its used for remote access
 import {
   GET_ICAO_BY_COUNTRY_REQUEST,
   GET_ICAO_BY_COUNTRY_SUCCESS,

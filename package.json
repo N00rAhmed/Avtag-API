@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.20.0",
     "classnames": "^2.2.6",
+    "cors": "^2.8.5",
     "date-fns": "^2.16.1",
     "material-table": "1.67.1",
     "material-ui-confirm": "^2.1.1",
