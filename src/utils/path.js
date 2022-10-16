@@ -22,6 +22,11 @@ export default class path {
   static SHIFTHANDOVER = path.API_URL + 'shifthandovers';
 }
 
-// reason for cors error is that cors hasnt been installed and declared on api v1
+// request to https://avtagpro.herokuapp.com/api/v1/auth/me is being blocked by CORS
+
+// this https://avtagpro.herokuapp.com/api/v1/auth/me in web-app console is diffrent from static API_URL
+
+// reason for cors error is that cors hasnt been installed and declared on /api/v1/auth/me and static API_URL
+
 // this installation will allow for cross-domain request
 // another reason for error is API V1 hasnt been deployed properly on heroku
