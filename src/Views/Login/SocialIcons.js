@@ -9,10 +9,10 @@ const SocialIcons = () => {
       <a href='!#' className='social-icon' target='_blank'>
         <i className='fab fa-twitter'></i>
       </a>
-      <a href='!#' className='social-icon' target=''>
+      <a href='!#' className='social-icon' target='_blank'>
         <i className='fab fa-google'></i>
       </a>
-      <a href='!#' className='social-icon'>
+      <a href='!#' className='social-icon' target='_blank'>
         <i className='fab fa-linkedin-in'></i>
       </a>
     </div>
